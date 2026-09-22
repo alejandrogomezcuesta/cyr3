@@ -237,6 +237,7 @@ Los siguientes retos son los mismos que en el fichero de ejercicios. No incluyen
 Crea un programa que utilice un bucle `for` para mostrar la tabla de multiplicar del número `7`, desde `7 x 1` hasta `7 x 10`.
 
 **Restricción:** Utiliza el índice del bucle para calcular cada producto.
+**Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 ---
 
@@ -245,6 +246,7 @@ Crea un programa que utilice un bucle `for` para mostrar la tabla de multiplicar
 Crea un programa que recorra los números del `1` al `10` y muestre el doble de cada número.
 
 **Restricción:** Utiliza un bucle `for` y una variable llamada `doble`.
+**Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 ---
 
@@ -253,6 +255,7 @@ Crea un programa que recorra los números del `1` al `10` y muestre el doble de 
 Crea un programa que recorra los números del `1` al `20` y muestre solamente los que sean divisibles entre `4`.
 
 **Restricción:** Utiliza un bucle `for`, una condición `if` y el operador `%`.
+**Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 ---
 
@@ -261,6 +264,7 @@ Crea un programa que recorra los números del `1` al `20` y muestre solamente lo
 Crea un programa que recorra las edades del `12` al `18`. Para cada edad, muestra el texto o código que indique si es menor de edad o si ha alcanzado la mayoría de edad.
 
 **Restricción:** Utiliza un bucle `for` y una estructura `if` / `else`.
+**Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 ---
 
@@ -274,3 +278,4 @@ Un juego tiene `8` rondas numeradas del `1` al `8`. Crea un programa que recorra
 El programa debe mostrar el número de cada ronda y los puntos conseguidos en ella. Por ejemplo, la ronda `1` tendría `10` puntos y la ronda `2` tendría `20` puntos.
 
 **Restricción:** Utiliza un bucle `for`, una estructura `if` / `else` y el operador `%`.
+**Además:** Dibuja el diagrama de flujo correspondiente al programa.

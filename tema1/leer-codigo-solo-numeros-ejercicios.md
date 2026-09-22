@@ -291,6 +291,8 @@ donde `C` representa la variable `celsius` y `F` la variable `farenheit`, que es
 
 Finalmente, muestra el valor de `fahrenheit`.
 
+**Además:** Dibuja el diagrama de flujo correspondiente al programa.
+
 ---
 
 ### Reto 2: Control de Aforo
@@ -299,6 +301,7 @@ Finalmente, muestra el valor de `fahrenheit`.
   * Si la variable `personas` es mayor que 30, define una variable `exceso` que contenga cuántas personas están por encima del límite y muestra `exceso`.
   * En caso contrario (si es menor o igual a 30), asigna el valor `0` a `exceso` y muéstralo.
 * **Restricción:** Usa una estructura `if` / `else`.
+* **Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 ---
 
@@ -310,5 +313,6 @@ Finalmente, muestra el valor de `fahrenheit`.
   * Si `num` es mayor que `50`, guarda en `categoria` el valor `1`.
   * Al final, muestra la variable `categoria`.
 * **Restricción:** Utiliza estructuras `if` / `else` anidadas y solo expresiones numéricas/comparaciones básicas.
+* **Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 

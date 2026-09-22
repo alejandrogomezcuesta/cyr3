@@ -399,6 +399,7 @@ flowchart TD
 
 * **Enunciado:** Crea un programa que declare una variable `celsius` con el valor `25`. Calcula la temperatura equivalente en grados Fahrenheit utilizando la fórmula $F = C \times 1.8 + 32$ y guarda el resultado en una variable llamada `fahrenheit`. Finalmente, muestra el valor de `fahrenheit`.
 * **Restricción:** Utiliza únicamente operaciones aritméticas básicas.
+* **Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 ---
 
@@ -408,6 +409,7 @@ flowchart TD
   * Si la variable `personas` es mayor que 30, define una variable `exceso` que contenga cuántas personas están por encima del límite y muestra `exceso`.
   * En caso contrario (si es menor o igual a 30), asigna el valor `0` a `exceso` y muéstralo.
 * **Restricción:** Usa una estructura `if` / `else`.
+* **Además:** Dibuja el diagrama de flujo correspondiente al programa.
 
 ---
 
@@ -419,3 +421,4 @@ flowchart TD
   * Si `num` es mayor que `50`, guarda en `categoria` el valor `1`.
   * Al final, muestra la variable `categoria`.
 * **Restricción:** Utiliza estructuras `if` / `else` anidadas y solo expresiones numéricas/comparaciones básicas.
+* **Además:** Dibuja el diagrama de flujo correspondiente al programa.
