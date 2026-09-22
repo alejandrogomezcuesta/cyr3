@@ -286,6 +286,28 @@ flowchart TD
 
 ## Retos para el alumnado
 
+### Reto 0: Del diagrama de flujo al código
+
+Observa el siguiente diagrama de flujo y escribe el programa Python equivalente. El programa debe mostrar la suma de los números pares del `1` al `6`.
+
+```mermaid
+flowchart TD
+    A([Inicio]) --> B[suma = 0]
+    B --> C[indice = 1]
+    C --> D{indice < 7}
+    D -- Sí --> E{indice % 2 == 0}
+    E -- Sí --> F[suma = suma + indice]
+    E -- No --> G[indice = siguiente valor]
+    F --> G
+    G --> D
+    D -- No --> H[/Mostrar suma/]
+    H --> I([Fin])
+```
+
+**Restricción:** Utiliza un bucle `for`, una condición `if` y una variable acumuladora llamada `suma`.
+
+---
+
 ### Reto 1: Tabla de multiplicar
 
 Crea un programa que utilice un bucle `for` para mostrar la tabla de multiplicar del número `7`, desde `7 x 1` hasta `7 x 10`.

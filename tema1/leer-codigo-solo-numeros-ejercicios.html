@@ -305,6 +305,25 @@ flowchart TD
 
 ---
 
+### Reto 0: Del diagrama de flujo al código
+
+Observa el siguiente diagrama de flujo y escribe el programa Python equivalente. Después, indica qué valor se muestra por pantalla.
+
+```mermaid
+flowchart TD
+    A([Inicio]) --> B[nota = 7]
+    B --> C{nota >= 5}
+    C -- Sí --> D[resultado = 10]
+    C -- No --> E[resultado = 0]
+    D --> F[/Mostrar resultado/]
+    E --> F
+    F --> G([Fin])
+```
+
+**Restricción:** Utiliza una estructura `if` / `else`.
+
+---
+
 ### Reto 1: Conversor de Temperatura
 
 * Crea un programa que declare una variable `celsius` con el valor `25`. Calcula la temperatura equivalente en grados Fahrenheit utilizando la fórmula

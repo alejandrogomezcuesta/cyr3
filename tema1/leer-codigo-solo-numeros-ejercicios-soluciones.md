@@ -395,6 +395,21 @@ flowchart TD
 
 ## Bloque 5: Ejercicios de Creación para el Alumnado
 
+### Reto 0: Del diagrama de flujo al código
+
+```python
+nota = 7
+if nota >= 5:
+    resultado = 10
+else:
+    resultado = 0
+print(resultado)
+```
+
+El programa muestra `10`.
+
+---
+
 ### Reto 1: Conversor de Temperatura
 
 * **Enunciado:** Crea un programa que declare una variable `celsius` con el valor `25`. Calcula la temperatura equivalente en grados Fahrenheit utilizando la fórmula $F = C \times 1.8 + 32$ y guarda el resultado en una variable llamada `fahrenheit`. Finalmente, muestra el valor de `fahrenheit`.
@@ -422,3 +437,36 @@ flowchart TD
   * Al final, muestra la variable `categoria`.
 * **Restricción:** Utiliza estructuras `if` / `else` anidadas y solo expresiones numéricas/comparaciones básicas.
 * **Además:** Dibuja el diagrama de flujo correspondiente al programa.
+
+```python
+celsius = 25
+fahrenheit = celsius * 1.8 + 32
+print(fahrenheit)
+```
+
+El programa muestra `77.0`.
+
+```python
+personas = 34
+if personas > 30:
+    exceso = personas - 30
+else:
+    exceso = 0
+print(exceso)
+```
+
+El programa muestra `4`.
+
+```python
+num = 45
+if num < 0:
+    categoria = -1
+else:
+    if num <= 50:
+        categoria = 0
+    else:
+        categoria = 1
+print(categoria)
+```
+
+El programa muestra `0`.
