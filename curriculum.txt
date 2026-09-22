@@ -1,0 +1,163 @@
+1. Comprender el impacto que la
+computación y la robótica tienen en
+nuestra sociedad y desarrollar el
+pensamiento computacional para
+realizar proyectos de construcción de
+sistemas digitales de forma sostenible.
+
+1.1. Comprender el funcionamiento de los sistemas de
+computación física, sus componentes y principales
+características.
+CYR.3.C.1. Concepto de grado de libertad.
+CYR.3.B.1. Aplicaciones de los sensores IoT.
+CYR.3.B.2. Conexión de dispositivo a la nube.
+CYR.3.B.3. Características básicas de los protocolos de comunicación: Zigbee, Bluetooth (BLE), Z-Wave, etc.
+CYR.3.B.4. Aplicaciones móviles IoT.
+
+1.2. Reconocer los conceptos básicos de la robótica, así como
+las configuraciones morfológicas más comunes.
+CYR.3.C.1. Concepto de grado de libertad.
+CYR.3.C.2. Tipología de las articulaciones.
+CYR.3.C.3. Configuraciones morfológicas y parámetros característicos de los robots industriales.
+CYR.3.C.4. Análasis de los AGV (Automated Guided Vehicles).
+
+1.3. Entender cómo funciona un programa informático, la
+manera de elaborarlo y sus principales componentes.
+CYR.3.A.1. Conexión de los lenguajes de programación visuales con los lenguajes de programación textuales.
+CYR.3.A.2. Generación de programas con especificaciones básicas en lenguajes de bloques.
+CYR.3.A.3. Secuencia de instrucciones. Implementación de algoritmos.
+CYR.3.A.4. Bucles y condicionales anidadas básicas.
+CYR.3.A.5. Entornos de interacción con el usuario.
+
+1.4. Comprender los principios de ingeniería en los que se
+basan los robots, su funcionamiento, componentes y
+características.
+CYR.3.C.1. Concepto de grado de libertad.
+CYR.3.C.2. Tipología de las articulaciones.
+CYR.3.C.3. Configuraciones morfológicas y parámetros característicos de los robots industriales.
+CYR.3.C.4. Análasis de los AGV (Automated Guided Vehicles).
+CYR.3.C.5. Programación con lenguaje de texto de microprocesadores.
+
+2. Producir programas informáticos,
+colaborando en un equipo de trabajo y
+creando aplicaciones sencillas,
+mediante lenguaje de bloques,
+utilizando las principales estructuras de
+un lenguaje de programación para
+solventar un problema determinado o
+exhibir un comportamiento deseado.
+
+2.1. Conocer y resolver la variedad de problemas posibles,
+desarrollando un programa informático y generalizando las
+soluciones, tanto de forma individual como trabajando en
+equipo, colaborando y comunicándose de forma adecuada
+CYR.3.A.1. Conexión de los lenguajes de programación visuales con los lenguajes de programación textuales.
+CYR.3.A.2. Generación de programas con especificaciones básicas en lenguajes de bloques.
+CYR.3.A.3. Secuencia de instrucciones. Implementación de algoritmos.
+CYR.3.A.4. Bucles y condicionales anidadas básicas.
+CYR.3.A.5. Entornos de interacción con el usuario.
+
+2.2. Entender el funcionamiento interno de las aplicaciones
+móviles y cómo se construyen, dando respuesta a las posibles
+demandas del escenario a resolver
+CYR.3.A.3. Secuencia de instrucciones. Implementación de algoritmos.
+CYR.3.A.4. Bucles y condicionales anidadas básicas.
+CYR.3.D.1. Uso básico de IDEs de lenguajes de bloques para móviles.
+CYR.3.D.2. Programación orientada a eventos.
+CYR.3.D.3. Definición de eventos.
+
+2.3. Conocer y resolver la variedad de problemas posibles
+desarrollando una aplicación móvil y generalizando las
+soluciones.
+CYR.3.D.1. Uso básico de IDEs de lenguajes de bloques para móviles.
+CYR.3.D.2. Programación orientada a eventos.
+CYR.3.D.4. Generadores de eventos: los sensores.
+CYR.3.D.5. E/S: captura de eventos y su respuesta.
+CYR.3.B.4. Aplicaciones móviles IoT.
+
+3. Diseñar y construir sistemas de
+computación físicos o robóticos
+sencillos, aplicando los conocimientos
+necesarios para desarrollar soluciones
+automatizadas a problemas
+planteados.
+3.1. Ser capaz de construir un sistema de computación o
+robótico, promoviendo la interacción con el mundo físico en el
+contexto de un problema del mundo real, de forma sostenible
+CYR.3.F.1. Sistemas de computación: aplicaciones.
+CYR.3.F.2. Microcontroladores: tipología.
+CYR.3.F.3. Hardware: clasificación de los componentes y Software: ciclo de vida.
+CYR.3.F.4. Seguridad eléctrica: cortafuegos o firewall de hardware, y módulos de seguridad de hardware (HSM).
+
+
+4. Recopilar, almacenar y procesar
+datos, identificando patrones y
+descubriendo conexiones para resolver
+problemas mediante la Inteligencia
+Artificial entendiendo cómo nos ayuda
+a mejorar nuestra comprensión del
+mundo.
+
+4.1. Conocer la naturaleza de los distintos tipos metadatos
+generados hoy en día, siendo capaces de entender su ciclo de
+vida, empleando a su vez un espíritu crítico y científico.
+CYR.3.G.1. Clasificación de los metadatos.
+CYR.3.G.2. Uso de Metadatos.
+CYR.3.G.3. Almacenamiento de Metadatos.
+
+4.2. Comprender los principios básicos de funcionamiento de
+los agentes inteligentes y de las técnicas de aprendizaje
+automático, con objeto de aplicarlos para la resolución de
+situaciones mediante la Inteligencia Artificial
+CYR.3.H.1. Situación actual de la Inteligencia Artificial.
+CYR.3.H.2. Ética y responsabilidad social en el uso de IA: análisis y consecuencias del mal uso.
+CYR.3.H.3. Agentes inteligentes simples:funcionamiento.
+CYR.3.H.4. Aprendizaje automático: casos prácticos.
+CYR.3.H.5. Aprendizaje por refuerzo: aplicaciones.
+
+4.3 Comprender los principios de funcionamiento del Data Scraping.
+CYR.3.G.4. Data scraping.
+
+5. Utilizar y crear aplicaciones
+informáticas y web sencillas,
+entendiendo su funcionamiento
+interno, de forma segura, responsable y
+respetuosa, protegiendo la identidad
+online y la privacidad.
+
+5.1 Conocer la construcción de aplicaciones informáticas y
+web, entendiendo su funcionamiento interno, de forma
+segura, responsable y respetuosa.
+CYR.3.E.1. Análisis de la estructura de las páginas web.
+CYR.3.E.2. Servidores web: tipología.
+
+5.2. Conocer y resolver la variedad de problemas
+potencialmente presentes en el desarrollo de una a
+CYR.3.E.3. Formatos de animación web.
+CYR.3.E.4. Herramientas de animación web.
+
+6. Conocer y aplicar los principios de la
+ciberseguridad, adoptando hábitos y
+conductas de seguridad, para permitir
+la protección del individuo en su
+interacción en la red.
+
+6.1. Adoptar conductas y hábitos que permitan la protección
+activa del individuo en su interacción en la red.
+CYR.3.I.1. Cibereguridad: tipologías.
+CYR.3.I.2. Ciberseguridad: necesidad y concienciación.
+CYR.3.I.3. Tipos de Malware y antimalware: protección.
+
+6.2. Acceder a servicios de intercambio y publicación de
+información digital aplicando criterios de seguridad y uso
+responsable.
+CYR.3.I.4. Interacción de plataformas virtuales: soluciones.
+
+6.3. Reconocer y comprender la propiedad intelectual de los
+materiales alojados en la Internet.
+CYR.3.I.5. Ley de propiedad intelectual.
+
+6.4. Conocer las estrategias de ciberseguridad que garantizan
+protección a los usuarios de Internet.
+CYR.3.I.2. Ciberseguridad: necesidad y concienciación.
+CYR.3.I.3. Tipos de Malware y antimalware: protección.
