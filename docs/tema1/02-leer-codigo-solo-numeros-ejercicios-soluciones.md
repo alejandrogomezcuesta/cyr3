@@ -1,4 +1,4 @@
-## Bloque 1: Programas Secuenciales (Sin Condiciones)
+# Ejercicios de leer código solo con números (Soluciones)
 
 ### Ejercicio 1: Cálculo del doble de un número
 

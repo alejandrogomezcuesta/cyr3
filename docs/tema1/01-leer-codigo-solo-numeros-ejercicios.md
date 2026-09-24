@@ -1,31 +1,4 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ejercicios de Programación en Python para 3º ESO</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/styles/atom-one-dark.min.css">
-  <style>
-    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.55; color: #1f2937; background: #f4f7fb; }
-    body { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
-    main { background: #fff; padding: clamp(1.25rem, 4vw, 3rem); border: 1px solid #dbe3ee; border-radius: 12px; box-shadow: 0 8px 30px rgba(31, 41, 55, .08); }
-    h1, h2, h3 { color: #153e75; line-height: 1.2; }
-    h1 { margin-top: 0; font-size: clamp(1.8rem, 4vw, 2.7rem); }
-    h3 { margin-top: 2rem; border-top: 1px solid #e5e7eb; padding-top: 1.25rem; }
-    code { background: #eef2f7; border-radius: 4px; padding: .12rem .3rem; }
-    pre { overflow-x: auto; padding: 1rem; border-radius: 8px; background: #172033; color: #e5edf8; }
-    pre code { padding: 0; background: transparent; }
-    .mermaid { overflow-x: auto; margin: 1rem 0 2rem; padding: .75rem; text-align: center; }
-    hr { border: 0; border-top: 1px solid #e5e7eb; margin: 2rem 0; }
-    blockquote { border-left: 4px solid #5b8def; margin-left: 0; padding-left: 1rem; color: #4b5563; }
-    .error { color: #a61b1b; background: #fff0f0; padding: 1rem; border-radius: 8px; }
-  </style>
-</head>
-<body>
-  <main id="content" aria-live="polite"></main>
-
-  <script type="text/markdown" id="source">
-# Ejercicios de Programación en Python para 3º ESO
+# Ejercicios de leer código solo con números
 
 **Tema:** 1 Introducción a la Programación
 
@@ -265,6 +238,7 @@ flowchart TD
 
 ### Ejercicio 10
 
+
 ```python
 x = 15
 y = 20
@@ -359,25 +333,5 @@ Finalmente, muestra el valor de `fahrenheit`.
   * Al final, muestra la variable `categoria`.
 * **Restricción:** Utiliza estructuras `if` / `else` anidadas y solo expresiones numéricas/comparaciones básicas.
 * **Además:** Dibuja el diagrama de flujo correspondiente al programa.
-  </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/lib/highlight.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
-  <script>
-    const source = document.getElementById('source').textContent.trim();
-        const escapeHtml = value => value.replace(/[&<>'"]/g, character => ({
-            '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
-        }[character]));
-        const renderer = new marked.Renderer();
-        renderer.code = function (token) {
-            if (token.lang === 'mermaid') return '<div class="mermaid">' + token.text + '</div>';
-            return '<pre><code class="language-' + (token.lang || '') + '">' + escapeHtml(token.text) + '</code></pre>';
-        };
-    document.getElementById('content').innerHTML = marked.parse(source, { renderer });
-        document.querySelectorAll('pre code').forEach(block => hljs.highlightElement(block));
-    mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', theme: 'neutral' });
-    mermaid.run({ querySelector: '.mermaid' });
-  </script>
-</body>
-</html>
+

@@ -1,4 +1,4 @@
-# Ejercicios de Programación en Python para 3º ESO
+# Ejercicios de leer código con bucles y condiciones (soluciones)
 
 **Tema:** Bucles `for` y condiciones - soluciones
 
