@@ -59,7 +59,11 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -67,5 +71,8 @@ markdown_extensions:
 
 extra:
   generator: false
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.esm.min.mjs
 
 # MkDocs genera automáticamente la navegación a partir de docs/ al omitir nav:.
