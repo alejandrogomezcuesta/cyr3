@@ -1,0 +1,6 @@
+INHERIT: mkdocs.yml
+
+site_name: Planning - Computación y Robótica
+site_url: https://alejandrogomezcuesta.github.io/cyr3/planning/
+site_dir: site/planning
+docs_dir: planning
