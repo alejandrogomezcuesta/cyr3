@@ -1,3 +1,14 @@
+# Planning
+
+El calendario y las sesiones del curso se publican en un sitio separado:
+
+[Ir al planning del curso](https://alejandrogomezcuesta.github.io/cyr3/planning/)
+
+# Calendario anual de Computacion y Robotica 3o ESO
+## Calendario
+
+- [Calendario](00_calendario.md)
+
 # CyR3
 
 Asignatura **Computación y Robótica** de 3º de la ESO.
