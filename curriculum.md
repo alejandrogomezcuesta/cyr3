@@ -60,7 +60,8 @@
   - CYR.3.B.4. Aplicaciones móviles IoT.
 
 **3. Diseñar y construir sistemas de computación físicos o robóticos  sencillos, aplicando los conocimientos necesarios para desarrollar soluciones automatizadas a problemas planteados.**
-- 3.1. Ser capaz de construir un sistema de computación o robótico, promoviendo la interacción con el mundo físico en el  contexto de un problema del mundo real, de forma sostenible CYR.3.F.1. Sistemas de computación: aplicaciones.
+- 3.1. Ser capaz de construir un sistema de computación o robótico, promoviendo la interacción con el mundo físico en el  contexto de un problema del mundo real, de forma sostenible.
+  - CYR.3.F.1. Sistemas de computación: aplicaciones.
   - CYR.3.F.2. Microcontroladores: tipología.
   - CYR.3.F.3. Hardware: clasificación de los componentes y Software: ciclo de vida.
   - CYR.3.F.4. Seguridad eléctrica: cortafuegos o firewall de hardware, y módulos de seguridad de hardware (HSM).
@@ -87,7 +88,7 @@ CYR.3.G.4. Data scraping.
 CYR.3.E.1. Análisis de la estructura de las páginas web.
 CYR.3.E.2. Servidores web: tipología.
 
-5.2. Conocer y resolver la variedad de problemas potencialmente presentes en el desarrollo de una a
+5.2. Conocer y resolver la variedad de problemas potencialmente presentes en el desarrollo de una aplicación web, tratando de generalizar posibles soluciones.
 CYR.3.E.3. Formatos de animación web.
 CYR.3.E.4. Herramientas de animación web.
 
