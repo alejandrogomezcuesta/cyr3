@@ -46,4 +46,3 @@ Probad la app y marcad cada punto cuando funcione:
 | El número cambia, pero la imagen no | ¿Has subido las cuatro imágenes? ¿Elegiste la imagen correcta en cada bloque if? |
 | El contador no sube | ¿El bloque de sumar está dentro del evento Shaking? |
 | Reiniciar no hace nada | ¿El evento del botón usa Button\_reiniciar.Click y pone el contador a 0? |
-
