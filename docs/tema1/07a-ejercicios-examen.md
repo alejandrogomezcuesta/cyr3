@@ -82,7 +82,7 @@ print(f"Estado: {resultado}")
 ### **Ejercicio 9**
 
 ```python linenums="1"
-palabra = "python linenums="1""
+palabra = "python linenums='1'"
 contador = 0
 for letra in palabra:
     contador = contador + 1

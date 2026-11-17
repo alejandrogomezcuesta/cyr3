@@ -74,4 +74,37 @@ extra:
 extra_javascript:
   - https://unpkg.com/mermaid@11/dist/mermaid.esm.min.mjs
 
-# MkDocs genera automáticamente la navegación a partir de docs/ al omitir nav:.
+nav:
+  - Inicio: index.md
+  - Tema 1. Introducción a la programación:
+      - Presentación: tema1/index.md
+      - Leer código solo con números:
+          - Ejercicios: tema1/01-leer-codigo-solo-numeros-ejercicios.md
+          - Soluciones: tema1/01s-leer-codigo-solo-numeros-ejercicios-soluciones.md
+          - Retos: tema1/02-leer-codigo-solo-numeros-retos.md
+          - Soluciones de los retos: tema1/02s-leer-codigo-solo-numeros-retos-soluciones.md
+      - Bucles y condiciones:
+          - Ejercicios: tema1/03-leer-codigo-solo-numeros-bucles-y-condiciones.md
+          - Soluciones: tema1/03s-leer-codigo-solo-numeros-bucles-y-condiciones-soluciones.md
+          - Retos: tema1/04-leer-codigo-solo-numeros-retos.md
+          - Soluciones de los retos: tema1/04s-leer-codigo-solo-numeros-retos-soluciones.md
+      - Acumuladores:
+          - Ejercicios: tema1/05-leer-codigo-solo-numeros-acumuladores.md
+          - Soluciones: tema1/05s-leer-codigo-solo-numeros-acumuladores-solución.md
+          - Retos: tema1/06-leer-codigo-solo-numeros-acumuladores-retos.md
+          - Soluciones de los retos: tema1/06s-leer-codigo-solo-numeros-acumuladores-retos-solución.md
+      - Ejercicios de examen:
+          # - Modelo general: tema1/07-ejercicios-de-examen.md
+          - Modelo de examen A: tema1/07a-ejercicios-examen.md
+          # - Modelo B: tema1/07b-ejercicios-examen.md
+          # - Soluciones: tema1/07s-ejercicios-de-examen.md
+  - Tema 2. Desarrollo móvil:
+      - Presentación: tema2/index.md
+      - 01 Introducción a Thunkable: tema2/01-intro-hola-mundo.md
+      - 02 App que suma dos números: tema2/02-sumar-dos-numeros.md
+      - 03 Memes Shake: tema2/03-memes-shake.md
+      - 04 App de incidencias para la Policía: tema2/04-app-policia.md
+      - 05 Un nivel con Thunkable: tema2/05-giroscopio-nivel.md
+      # - Brújula: tema2/06-giroscopio-brujula.md
+      # - Práctica: la flecha que te sigue: tema2/06-giroscopio-hablando.md
+      # - Piano: tema2/08-piano.md.

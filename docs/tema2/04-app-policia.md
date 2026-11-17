@@ -1,4 +1,4 @@
-# Enunciado: App de incidencias para la Policía
+# App de incidencias para la Policía
 
 ## El encargo
 

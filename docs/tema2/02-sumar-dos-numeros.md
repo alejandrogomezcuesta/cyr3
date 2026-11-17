@@ -1,4 +1,4 @@
-# Guía Thunkable: app que suma dos números
+# App que suma dos números
 
 ## Objetivo
 

@@ -1,4 +1,4 @@
-# Práctica: Memes Shake
+# Memes Shake
 
 Vas a crear una app que cambia de meme cada vez que sacudes el móvil y que cuenta cuántas veces lo has agitado.
 

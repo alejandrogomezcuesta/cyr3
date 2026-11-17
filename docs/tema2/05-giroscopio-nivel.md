@@ -1,10 +1,12 @@
-# Práctica: Un nivel con Thunkable
+# Un nivel con Thunkable
 
 Vas a convertir tu móvil en un nivel: la app te dirá si está colocado plano sobre una superficie, y avisará con colores y sonido.
 
 ## Punto de partida
 
-Abre [este enlace](https://x.thunkable.com/copy/813c65fc3885e5f398d3b8fac124f7b8) y haz una copia en tu cuenta de Thunkable. Es una app que usa el giroscopio del móvil para comprobar si está colocado plano sobre una superficie.
+Abre [este enlace](https://x.thunkable.com/projectPage/6af42b4dd3c42e36eb4896c2) y pulsa en el botón *Copy Project* que encuentras en la esquina superior derecha de la pantalla para hacer una copia del proyecto en tu cuenta.
+
+Esta es una app que usa el giroscopio del móvil para comprobar si está colocado plano sobre una superficie.
 
 Antes de cambiar nada, pruébala:
 
@@ -24,7 +26,7 @@ Fíjate en el código de programa.
 
 ## Ejercicio 1: colorea lo que está bien
 
-Haz que cuando Beta esté bien colocada, su texto aparezca en un color distinto del negro. Haz lo mismo con Gamma, cada una por separado.
+Haz que cuando Beta esté bien colocada, su texto aparezca en un color distinto del negro. Haz lo mismo con Gamma, cada una por separado. Recuerda que *Beta* sirve para saber si el teléfono está bien colocado en su lado largo.
 
 ![La pantalla con el móvil inclinado, con solo Beta bien colocada y con las dos bien colocadas](image-8.png)
 
@@ -37,7 +39,7 @@ Pistas:
 
 ## Ejercicio 2: fondo y sonido
 
-Cuando Beta y Gamma estén bien colocadas a la vez, el fondo de la pantalla cambia a otro color y suena un sonido.
+Cuando Beta y Gamma estén bien colocadas a la vez, haz que el fondo de la pantalla cambia a otro color y suene un sonido.
 
 ![La pantalla con el móvil inclinado y con el móvil plano: cambia el fondo y suena](image-9.png)
 
