@@ -6,47 +6,49 @@ Vas a convertir tu móvil en un nivel: la app te dirá si está colocado plano s
 
 Abre [este enlace](https://x.thunkable.com/projectPage/6af42b4dd3c42e36eb4896c2) y pulsa en el botón *Copy Project* que encuentras en la esquina superior derecha de la pantalla para hacer una copia del proyecto en tu cuenta.
 
-Esta es una app que usa el giroscopio del móvil para comprobar si está colocado plano sobre una superficie.
+Esta es una app que usa el acelerómetro del móvil para comprobar si está colocado plano sobre una superficie.
 
 Antes de cambiar nada, pruébala:
 
-- Pon el móvil plano sobre la mesa y anota qué valores marcan Beta y Gamma.
+- Pon el móvil plano sobre la mesa y anota qué valores marcan `X` e `Y`.
 - Inclínalo y mira cómo cambian los valores.
 
-Beta y Gamma son dos giros distintos del móvil. Cuando los dos están bien colocados, el móvil está plano.
+`X` e `Y` son dos *ángulos* en los que el móvil se gira. Cuando los dos están bien colocados, el móvil está plano.
 
 ### Código del programa
 
 Fíjate en el código de programa.
 
-- Cuando *Beta* es menor que 2, consideramos que el móvil está plano respecto de su lado largo.
-- Cuando *Gamma* es menor que 2, consideramos que el móvil está plano respecto de su lado corto.
+- Cuando `X` es menor que 0.2, consideramos que el móvil está plano respecto al eje horizontal.
+- Cuando `Y` es menor que 0.2, consideramos que el móvil está plano respecto al eje vertical.
 
 ![Código del programa](image-7.png)
 
 ## Ejercicio 1: colorea lo que está bien
 
-Haz que cuando Beta esté bien colocada, su texto aparezca en un color distinto del negro. Haz lo mismo con Gamma, cada una por separado. Recuerda que *Beta* sirve para saber si el teléfono está bien colocado en su lado largo.
+Haz que cuando `X` esté bien colocada, su texto aparezca en un color distinto del negro.
+
+Haz lo mismo con `Y`, cada una por separado. 
 
 ![La pantalla con el móvil inclinado, con solo Beta bien colocada y con las dos bien colocadas](image-8.png)
 
 Pistas:
 
-- El evento «Gyroscope1.Changes» se ejecuta cada vez que el móvil se mueve. Los bloques del color van dentro.
-- «abs» (valor absoluto) está en el cajón Math. Quita el signo, así que -3 y 3 valen igual.
-- Prueba con tolerancia 5 y cámbiala si es muy difícil o muy fácil acertar.
+- El evento «Accelerometer1.Changes» se ejecuta cada vez que el móvil se mueve. Los bloques del color van dentro.
+- «abs» (valor absoluto) está en la categoría `Math`: sirve para quitar el signo a un número.
+- Cambia la tolerancia a un valor más alto o más bajo y comprueba si es más fácil o difícil poner el teléfono centrado y usar el nivel.
 - La propiedad del color del texto es «TextColor» de cada etiqueta.
 
 ## Ejercicio 2: fondo y sonido
 
-Cuando Beta y Gamma estén bien colocadas a la vez, haz que el fondo de la pantalla cambia a otro color y suene un sonido.
+Cuando `X` e `Y` estén bien colocadas a la vez, haz que el fondo de la pantalla cambia a otro color y suene un sonido.
 
 ![La pantalla con el móvil inclinado y con el móvil plano: cambia el fondo y suena](image-9.png)
 
 La idea es:
 
 1. Añade un componente Sound (apartado Media) y sube el sonido que quieras.
-2. Si *beta es ok* y *gamma es ok* son verdaderas a la vez, cambia el color de fondo de la pantalla.
+2. Si `X` e `Y` están bien niveladas vez, cambia el color de fondo de la pantalla.
 3. Haz sonar el sonido solo cuando antes no sonaba. Para eso necesitas una variable (sonando), porque el evento se repite muchas veces por segundo.
 4. Si no están las dos bien, vuelve al fondo blanco y deja la variable lista para la próxima vez.
 
@@ -65,8 +67,8 @@ Pistas:
 Probad la app y marcad cada punto cuando funcione:
 
 - Con el móvil inclinado, los dos textos están en negro.
-- Cuando solo Beta está bien, solo el texto de Beta cambia de color.
-- Cuando solo Gamma está bien, solo el texto de Gamma cambia de color.
+- Cuando solo `X` está bien, solo el texto de Beta cambia de color.
+- Cuando solo `Y` está bien, solo el texto de Gamma cambia de color.
 - Cuando las dos están bien, cambia el fondo de la pantalla.
 - Cuando las dos están bien, suena el sonido una sola vez.
 - Al inclinar el móvil de nuevo, todo vuelve al estado inicial.
@@ -75,7 +77,7 @@ Probad la app y marcad cada punto cuando funcione:
 
 | Qué pasa | Qué revisar |
 | --- | --- |
-| Los textos nunca cambian de color | ¿Están los bloques dentro del evento Gyroscope1.Changes? Mira si tu valor plano es 0 y si la tolerancia es razonable. |
+| Los textos nunca cambian de color | ¿Están los bloques dentro del evento `Accelerometer.Changes`? Mira si tu valor plano es 0 y si la tolerancia es razonable. |
 | Siempre salen en verde, aunque esté inclinado | La tolerancia es demasiado grande. Reduce el número. |
 | El color cambia, pero el fondo no | ¿El bloque if de las dos condiciones usa and y no or? |
 | El sonido se repite sin parar | ¿Usas la variable sonando? Debe pasar a true al sonar y a false al inclinar. |
