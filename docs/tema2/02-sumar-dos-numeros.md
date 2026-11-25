@@ -81,3 +81,13 @@ Los colores solo distinguen el tipo de bloque en esta ilustración; en Thunkable
 - **No pasa nada al pulsar**: revisa que los bloques estén encajados dentro de `when BotonSumar.Click` y no sueltos en el área de trabajo.
 - **No encuentro un bloque**: comprueba que has renombrado bien el componente; el cajón lleva el nombre nuevo.
 - **El resultado sale vacío**: puede que una casilla esté sin rellenar al pulsar el botón.
+
+## Reto: ¿qué tengo que hacer?
+
+Se trata que amplíes la funcionalidad poniendo tres botones más a la aplicación:
+
+- Restar
+- Multiplicar
+- Dividir
+
+**¡¡De esta forma, estás creando una calculadora propia!!*
